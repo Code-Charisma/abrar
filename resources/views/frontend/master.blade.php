@@ -116,8 +116,8 @@
                                         </ul>
                                         <!-- Home Version Dropdown End -->
                                     </li>
-                                    <li><a href="#">pages<i class="fa fa-angle-down"></i></a>
-                                        <!-- Home Version Dropdown Start -->
+                                    <!-- <li><a href="#">pages<i class="fa fa-angle-down"></i></a>
+
                                         <ul class="ht-dropdown dropdown-style-two">
                                             <li><a href="login.html">Login Page</a></li>
                                             <li><a href="register.html">Register Page</a></li>
@@ -125,8 +125,8 @@
                                             <li><a href="forgot-password.html">Forgot Password Page</a></li>
                                             <li><a href="account.html">Account Page</a></li>
                                         </ul>
-                                        <!-- Home Version Dropdown End -->
-                                    </li>
+
+                                    </li> -->
                                     <li><a href="contact.html">contact us</a></li>
                                 </ul>
                             </nav>
@@ -192,30 +192,13 @@
                             <nav>
                                 <ul>
                                     <li><a href="index.html">home</a>
-                                        <!-- Home Version Dropdown Start -->
-                                        <ul>
-                                            <li><a href="index.html">Home Version One</a></li>
-                                            <li><a href="index-2.html">Home Version Two</a></li>
-                                            <li><a href="index-3.html">Home Box Layout</a></li>
-                                        </ul>
-                                        <!-- Home Version Dropdown End -->
+
                                     </li>
                                     <li><a href="shop.html">shop</a>
                                         <!-- Mobile Menu Dropdown Start -->
                                         <ul>
                                             <li><a href="product.html">Shop</a>
-                                                <ul>
-                                                    <li><a href="shop.html">Product Category Name</a>
-                                                        <!-- Start Three Step -->
-                                                        <ul>
-                                                            <li><a href="shop.html">Product Category Name</a></li>
-                                                            <li><a href="shop.html">Product Category Name</a></li>
-                                                            <li><a href="shop.html">Product Category Name</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li><a href="shop.html">Product Category Name</a></li>
-                                                    <li><a href="shop.html">Product Category Name</a></li>
-                                                </ul>
+
                                             </li>
                                             <li><a href="product.html">product details Page</a></li>
                                             <li><a href="compare.html">Compare Page</a></li>

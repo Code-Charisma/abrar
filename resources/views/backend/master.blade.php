@@ -53,7 +53,7 @@
             </h2>
           </div>
           <!-- Small Brand information, appears on minimized sidebar-->
-          <div class="sidenav-header-logo"><a href="index.html" class="brand-small text-center"><strong class="text-primary">SCSL</strong></a></div>
+          <div class="sidenav-header-logo"><a href="index.html" class="brand-small text-center"><strong class="text-primary">SAI</strong></a></div>
         </div>
         <!-- Sidebar Navigation Menus-->
         <div class="main-menu">
@@ -125,7 +125,7 @@
                   <p>Your company &copy; 2019</p>
                 </div>
                 <div class="col-sm-6 text-right">
-                    <p>Developed By Decode Lab</p>
+                    <p>Developed By Fahim Hossain & Asjad Hasan Jim</p>
                   </div>
               </div>
             </div>
