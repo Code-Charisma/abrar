@@ -359,10 +359,11 @@
     </div>
     <!-- Footer Top End -->
     <!-- Footer Bottom Start -->
+
     <div class="footer-bottom off-white-bg2">
         <div class="container">
             <div class="footer-bottom-content">
-                <p class="copy-right-text">Copyright © <a  href="#">Jantrik</a> All Rights Reserved.</p>
+                <p class="copy-right-text">Copyright © Abrar International All Rights Reserved.</p>
                 <div class="footer-social-content">
                     <ul class="social-content-list">
                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -370,6 +371,23 @@
                         <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Container End -->
+    </div>
+
+
+    <div class="footer-bottom off-white-bg2">
+        <div class="container">
+            <div class="footer-bottom-content">
+                <p class="copy-right-text">Developed By Asjad Hasan Jim & MD. Fahim Hossain.</p>
+                <div class="footer-social-content">
+                    <ul class="social-content-list">
+
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        
                     </ul>
                 </div>
             </div>
