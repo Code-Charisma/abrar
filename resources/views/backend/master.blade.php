@@ -60,6 +60,7 @@
           <h5 class="sidenav-heading">Control Panel</h5>
           <ul id="side-main-menu" class="side-menu list-unstyled">
 
+                <li><a href="{{url('about/backend/page/view')}}"> <i class="fas fa-users"></i>Home Page</a></li>
                 <li><a href="{{url('about/backend/page/view')}}"> <i class="fas fa-users"></i>Abuot Us</a></li>
                 <li><a href="{{url('category/backend/page/view')}}"> <i class="fas fa-layer-group"></i>Product Category</a></li>
                 <li><a href="#exampledropdownDropdown2" aria-expanded="false" data-toggle="collapse"> <i class="fas fa-th"></i>Service</a>
