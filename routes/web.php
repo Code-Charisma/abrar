@@ -31,6 +31,14 @@ Route::group(['middleware' => 'auth'], function () {
     Route::post('edit/category/name','CategoryController@editCategoryName');
     Route::get('/delete/category/{id}','CategoryController@deleteCategory');
 
+    //Banner Poster
+    Route::get('/banner/poster/page/view','BannerController@homePageView');
+    Route::get('/add/banner/page','BannerController@addBannerPage');
+    Route::post('/add/new/banner','BannerController@addNewBanner');
+    Route::get('/edit/banner/page/{id}','BannerController@editBannerPage');
+    Route::post('/edit/banner','BannerController@editBanner');
+    Route::get('/delete/banner/{id}','BannerController@deleteBanner');
+
 });
 
 //Frontend Routes

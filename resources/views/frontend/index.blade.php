@@ -8,32 +8,32 @@
                 <div class="slider-wrapper theme-default">
                     <!-- Slider Background  Image Start-->
                     <div id="slider" class="nivoSlider">
-                        <a href="shop.html"> <img src="{{url('/')}}/frontend_assets/img/slider/5.jpg" data-thumb="{{url('/')}}/frontend_assets/img/slider/5.jpg" alt="" title="#slider-1-caption1"/></a>
-                        <a href="shop.html"><img src="{{url('/')}}/frontend_assets/img/slider/6.jpg" data-thumb="{{url('/')}}/frontend_assets/img/slider/6.jpg" alt="" title="#slider-1-caption2"/></a>
+
+                        @foreach ($banners as $banner)
+                            <a href="{{$banner->btn_link}}"> <img src="{{url($banner->banner_image)}}" data-thumb="{{url($banner->banner_image)}}" alt="" title="#slider-1-caption{{$banner->id}}"/></a>
+                        @endforeach
+
                     </div>
                     <!-- Slider Background  Image Start-->
-                    <div id="slider-1-caption1" class="nivo-html-caption nivo-caption">
+
+                    @foreach ($banners as $banner)
+                    <div id="slider-1-caption{{$banner->id}}" class="nivo-html-caption nivo-caption">
                         <div class="text-content-wrapper">
                             <div class="text-content">
-                                <h4 class="title2 wow bounceInLeft text-white mb-16" data-wow-duration="2s" data-wow-delay="0s">Big Sale</h4>
-                                <h1 class="title1 wow bounceInRight text-white mb-16" data-wow-duration="2s" data-wow-delay="1s">Hand Tools <br>Power Saw Machine</h1>
+                                <h4 class="title2 wow bounceInLeft text-white mb-16" data-wow-duration="2s" data-wow-delay="0s">
+                                    @if($banner->banner_heading != null)
+                                        {{$banner->banner_heading}}
+                                    @endif
+                                </h4>
+                                <h1 class="title1 wow bounceInRight text-white mb-16" data-wow-duration="2s" data-wow-delay="1s">@if($banner->banner_title != null){{$banner->banner_title}}@endif <br>@if($banner->banner_text != null){{$banner->banner_text}}@endif</h1>
                                 <div class="banner-readmore wow bounceInUp mt-35" data-wow-duration="2s" data-wow-delay="2s">
-                                    <a class="button slider-btn" href="shop.html">Shop Now</a>
+                                    <a class="button slider-btn" href="@if($banner->btn_link != null){{$banner->btn_link}}@endif">@if($banner->btn_name != null){{$banner->btn_name}}@endif</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div id="slider-1-caption2" class="nivo-html-caption nivo-caption">
-                        <div class="text-content-wrapper">
-                            <div class="text-content slide-2">
-                                <h4 class="title2 wow bounceInLeft text-white mb-16" data-wow-duration="1s" data-wow-delay="1s">Big Sale</h4>
-                                <h1 class="title1 wow flipInX text-white mb-16" data-wow-duration="1s" data-wow-delay="2s">Hand Tools <br>Power Saw Machine</h1>
-                                <div class="banner-readmore wow bounceInUp mt-35" data-wow-duration="1s" data-wow-delay="3s">
-                                    <a class="button slider-btn" href="shop.html">Shop Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    @endforeach
+
                 </div>
             </div>
             <div class="col-md-4">
@@ -42,6 +42,7 @@
                     <a href="#"><img src="{{url('/')}}/frontend_assets/img/banner/9.jpg" alt="slider-banner"></a>
                 </div>
                 <!-- Single Banner End -->
+
                 <!-- Single Banner Start -->
                 <div class="single-banner zoom">
                     <a href="#"><img src="{{url('/')}}/frontend_assets/img/banner/10.jpg" alt="slider-banner"></a>

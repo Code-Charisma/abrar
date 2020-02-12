@@ -91,7 +91,7 @@
                         <div class="middle-menu pull-right">
                             <nav>
                                 <ul class="middle-menu-list">
-                                    <li><a href="index.html">home</a>
+                                    <li><a href="{{url('/')}}">home</a>
                                     </li>
                                     <li><a href="{{url('about/page/frontend/view')}}">about us</a></li>
                                     <li><a href="shop.html">shop<i class="fa fa-angle-down"></i></a>
@@ -387,7 +387,7 @@
                     <ul class="social-content-list">
 
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        
+
                     </ul>
                 </div>
             </div>
