@@ -85,7 +85,7 @@
                             <div class="actions-secondary">
                                 <a href="wishlist.html" data-toggle="tooltip" title="Add to Wishlist"><i class="fa fa-heart"></i></a>
                                 <a class="add-cart" href="cart.html" data-toggle="tooltip" title="Add to Cart">Add To Cart</a>
-                                <a href="compare.html" data-toggle="tooltip" title="Add to Compare"><i class="fa fa-signal"></i></a>
+
                             </div>
                         </div>
                     </div>
@@ -119,7 +119,7 @@
                             <div class="actions-secondary">
                                 <a href="wishlist.html" data-toggle="tooltip" title="Add to Wishlist"><i class="fa fa-heart"></i></a>
                                 <a class="add-cart" href="cart.html" data-toggle="tooltip" title="Add to Cart">Add To Cart</a>
-                                <a href="compare.html" data-toggle="tooltip" title="Add to Compare"><i class="fa fa-signal"></i></a>
+
                             </div>
                         </div>
                     </div>
@@ -154,7 +154,7 @@
                             <div class="actions-secondary">
                                 <a href="wishlist.html" data-toggle="tooltip" title="Add to Wishlist"><i class="fa fa-heart"></i></a>
                                 <a class="add-cart" href="cart.html" data-toggle="tooltip" title="Add to Cart">Add To Cart</a>
-                                <a href="compare.html" data-toggle="tooltip" title="Add to Compare"><i class="fa fa-signal"></i></a>
+
                             </div>
                         </div>
                     </div>
@@ -188,7 +188,7 @@
                             <div class="actions-secondary">
                                 <a href="wishlist.html" data-toggle="tooltip" title="Add to Wishlist"><i class="fa fa-heart"></i></a>
                                 <a class="add-cart" href="cart.html" data-toggle="tooltip" title="Add to Cart">Add To Cart</a>
-                                <a href="compare.html" data-toggle="tooltip" title="Add to Compare"><i class="fa fa-signal"></i></a>
+
                             </div>
                         </div>
                     </div>
@@ -567,7 +567,7 @@
                                             <div class="actions-secondary">
                                                 <a href="wishlist.html" data-toggle="tooltip" title="Add to Wishlist"><i class="fa fa-heart"></i></a>
                                                 <a class="add-cart" href="cart.html" data-toggle="tooltip" title="Add to Cart">Add To Cart</a>
-                                                <a href="compare.html" data-toggle="tooltip" title="Add to Compare"><i class="fa fa-signal"></i></a>
+
                                             </div>
                                         </div>
                                     </div>
@@ -599,7 +599,7 @@
                                             <div class="actions-secondary">
                                                 <a href="wishlist.html" data-toggle="tooltip" title="Add to Wishlist"><i class="fa fa-heart"></i></a>
                                                 <a class="add-cart" href="cart.html" data-toggle="tooltip" title="Add to Cart">Add To Cart</a>
-                                                <a href="compare.html" data-toggle="tooltip" title="Add to Compare"><i class="fa fa-signal"></i></a>
+
                                             </div>
                                         </div>
                                     </div>
@@ -632,7 +632,7 @@
                                             <div class="actions-secondary">
                                                 <a href="wishlist.html" data-toggle="tooltip" title="Add to Wishlist"><i class="fa fa-heart"></i></a>
                                                 <a class="add-cart" href="cart.html" data-toggle="tooltip" title="Add to Cart">Add To Cart</a>
-                                                <a href="compare.html" data-toggle="tooltip" title="Add to Compare"><i class="fa fa-signal"></i></a>
+
                                             </div>
                                         </div>
                                     </div>
@@ -664,7 +664,7 @@
                                             <div class="actions-secondary">
                                                 <a href="wishlist.html" data-toggle="tooltip" title="Add to Wishlist"><i class="fa fa-heart"></i></a>
                                                 <a class="add-cart" href="cart.html" data-toggle="tooltip" title="Add to Cart">Add To Cart</a>
-                                                <a href="compare.html" data-toggle="tooltip" title="Add to Compare"><i class="fa fa-signal"></i></a>
+
                                             </div>
                                         </div>
                                     </div>
@@ -697,7 +697,7 @@
                                             <div class="actions-secondary">
                                                 <a href="wishlist.html" data-toggle="tooltip" title="Add to Wishlist"><i class="fa fa-heart"></i></a>
                                                 <a class="add-cart" href="cart.html" data-toggle="tooltip" title="Add to Cart">Add To Cart</a>
-                                                <a href="compare.html" data-toggle="tooltip" title="Add to Compare"><i class="fa fa-signal"></i></a>
+
                                             </div>
                                         </div>
                                     </div>
@@ -729,7 +729,7 @@
                                             <div class="actions-secondary">
                                                 <a href="wishlist.html" data-toggle="tooltip" title="Add to Wishlist"><i class="fa fa-heart"></i></a>
                                                 <a class="add-cart" href="cart.html" data-toggle="tooltip" title="Add to Cart">Add To Cart</a>
-                                                <a href="compare.html" data-toggle="tooltip" title="Add to Compare"><i class="fa fa-signal"></i></a>
+
                                             </div>
                                         </div>
                                     </div>
@@ -769,7 +769,7 @@
                                             <div class="actions-secondary">
                                                 <a href="wishlist.html" data-toggle="tooltip" title="Add to Wishlist"><i class="fa fa-heart"></i></a>
                                                 <a class="add-cart" href="cart.html" data-toggle="tooltip" title="Add to Cart">Add To Cart</a>
-                                                <a href="compare.html" data-toggle="tooltip" title="Add to Compare"><i class="fa fa-signal"></i></a>
+
                                             </div>
                                         </div>
                                     </div>
@@ -801,7 +801,7 @@
                                             <div class="actions-secondary">
                                                 <a href="wishlist.html" data-toggle="tooltip" title="Add to Wishlist"><i class="fa fa-heart"></i></a>
                                                 <a class="add-cart" href="cart.html" data-toggle="tooltip" title="Add to Cart">Add To Cart</a>
-                                                <a href="compare.html" data-toggle="tooltip" title="Add to Compare"><i class="fa fa-signal"></i></a>
+
                                             </div>
                                         </div>
                                     </div>
@@ -834,7 +834,7 @@
                                             <div class="actions-secondary">
                                                 <a href="wishlist.html" data-toggle="tooltip" title="Add to Wishlist"><i class="fa fa-heart"></i></a>
                                                 <a class="add-cart" href="cart.html" data-toggle="tooltip" title="Add to Cart">Add To Cart</a>
-                                                <a href="compare.html" data-toggle="tooltip" title="Add to Compare"><i class="fa fa-signal"></i></a>
+
                                             </div>
                                         </div>
                                     </div>
@@ -866,7 +866,7 @@
                                             <div class="actions-secondary">
                                                 <a href="wishlist.html" data-toggle="tooltip" title="Add to Wishlist"><i class="fa fa-heart"></i></a>
                                                 <a class="add-cart" href="cart.html" data-toggle="tooltip" title="Add to Cart">Add To Cart</a>
-                                                <a href="compare.html" data-toggle="tooltip" title="Add to Compare"><i class="fa fa-signal"></i></a>
+
                                             </div>
                                         </div>
                                     </div>
@@ -898,7 +898,7 @@
                                             <div class="actions-secondary">
                                                 <a href="wishlist.html" data-toggle="tooltip" title="Add to Wishlist"><i class="fa fa-heart"></i></a>
                                                 <a class="add-cart" href="cart.html" data-toggle="tooltip" title="Add to Cart">Add To Cart</a>
-                                                <a href="compare.html" data-toggle="tooltip" title="Add to Compare"><i class="fa fa-signal"></i></a>
+
                                             </div>
                                         </div>
                                     </div>
@@ -930,7 +930,7 @@
                                             <div class="actions-secondary">
                                                 <a href="wishlist.html" data-toggle="tooltip" title="Add to Wishlist"><i class="fa fa-heart"></i></a>
                                                 <a class="add-cart" href="cart.html" data-toggle="tooltip" title="Add to Cart">Add To Cart</a>
-                                                <a href="compare.html" data-toggle="tooltip" title="Add to Compare"><i class="fa fa-signal"></i></a>
+
                                             </div>
                                         </div>
                                     </div>
@@ -943,7 +943,7 @@
                     </div>
                     <!-- Tab-Content End -->
                     <div class="single-banner zoom mt-30 mt-sm-10">
-                    <a href="#"><img src="img/banner/tab-banner.jpg" alt="slider-banner"></a>
+                    <a href="#"> <img class="secondary-img" src="{{url('/')}}/frontend_assets/img/banner/tab-banner.jpg" alt="banner"></a>
                 </div>
                 </div>
                 <!-- New Pro Content End -->
@@ -963,13 +963,13 @@
             <!-- Single Policy Start -->
             <div class="col-lg-3 col-sm-6">
                 <div class="single-policy">
-                    <div class="icone-img">
+                    <!-- <div class="icone-img">
                         <img src="{{url('/')}}/frontend_assets/img/icon/1.png" alt="">
-                    </div>
-                    <div class="policy-desc">
+                    </div> -->
+                    <!-- <div class="policy-desc">
                         <h3>Free Delivery</h3>
                         <p>Free shipping on all order</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <!-- Single Policy End -->

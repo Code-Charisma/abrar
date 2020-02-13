@@ -136,7 +136,6 @@ body {
     opacity: 0;
 }
 
-
 /*----------------------------------------*/
 /* 3. Header CSS
 /*----------------------------------------*/
@@ -674,7 +673,7 @@ ul.ht-dropdown.dropdown-style-two li {
     line-height: 39px;
     padding: 0 19px;
     border-radius: 5px;
-    background: #f1ac06;
+    background: #FF0000;
 }
 
 .text-content h1 {
@@ -719,7 +718,7 @@ ul.ht-dropdown.dropdown-style-two li {
     cursor: pointer;
     width: 12px;
     height: 12px;
-    background: #f1ac06;
+    background: #FF0000;
     margin: 0 7px;
     display: inline-block;
     line-height: 12px;
@@ -816,7 +815,7 @@ ul.ht-dropdown.dropdown-style-two li {
 }
 
 .product-rating i {
-    color: #f9ba48;
+    color: #FF0000;
     font-size: 14px;
     line-height: 20px;
 }
@@ -837,7 +836,7 @@ ul.ht-dropdown.dropdown-style-two li {
 }
 
 .sticker-new, .sticker-sale {
-    background: #f1ac06;
+    background: #FF0000;
     border-radius: 2px;
     color: #fff;
     font-size: 11px;
@@ -896,8 +895,8 @@ ul.ht-dropdown.dropdown-style-two li {
 .testimonial__container .dcare-arrow:hover,
 .home-2 .best-seller-pro .owl-nav div:hover,
 .best-selling-items .owl-nav div:hover {
-    border-color: #f1ac06;
-    background: #f1ac06;
+    border-color: #FF0000;
+    background: #FF0000;
     color: #fff;
 }
 
@@ -996,8 +995,8 @@ ul.ht-dropdown.dropdown-style-two li {
 
 .product-list li a.active,
 .best-selling-items .product-list li a.active {
-    color: #f1ac06;
-    border-color: #f1ac06;
+    color: #FF0000;
+    border-color: #FF0000;
 }
 
 .new-products .product-list {
@@ -1148,7 +1147,7 @@ ul.ht-dropdown.dropdown-style-two li {
 }
 
 .actions-secondary a:hover {
-    background: #f1ac06;
+    background: #FF0000;
     color: #fff;
 }
 
@@ -1382,7 +1381,7 @@ ul.ht-dropdown.dropdown-style-two li {
 }
 
 .footer-bottom-content p a:hover {
-    color: #f1ac06;
+    color: #FF0000;
 }
 
 .footer-social-content li {
@@ -1401,7 +1400,7 @@ ul.ht-dropdown.dropdown-style-two li {
 }
 
 .footer-social-content li a:hover {
-    color: #f1ac06;
+    color: #FF0000;
 }
 
 .footer-bottom-content {
@@ -1421,7 +1420,7 @@ ul.ht-dropdown.dropdown-style-two li {
 }
 
 .breadcrumb-area .breadcrumb li.active a, .breadcrumb li:hover a {
-    color: #f1ac06;
+    color: #FF0000;
 }
 
 /*----------------------------------------*/
@@ -2733,7 +2732,7 @@ p.checkout-coupon input[type="submit"] {
 }
 
 .blog-title:hover a, .blog-meta a:hover, .readmore a:hover {
-    color: #f1ac06;
+    color: #FF0000;
 }
 
 .blog-img a {
@@ -3163,7 +3162,7 @@ p.checkout-coupon input[type="submit"] {
 }
 
 .tag-list li:hover a {
-    background: #f1ac06;
+    background: #FF0000;
     color: #fff;
 }
 
@@ -3473,7 +3472,7 @@ legend {
     height: 40px;
     font-weight: 600;
     text-transform: uppercase;
-    background: #f1ac06;
+    background: #FF0000;
     z-index: 999;
 }
 
