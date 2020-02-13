@@ -4,9 +4,9 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class About extends Model
+class Poster extends Model
 {
     protected $fillable = [
-        'reason', 'experiance', 'works','updated_at'
+        'link','updated_at'
     ];
 }

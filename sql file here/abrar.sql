@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 12, 2020 at 08:58 PM
+-- Generation Time: Feb 13, 2020 at 05:39 AM
 -- Server version: 10.4.6-MariaDB
 -- PHP Version: 7.3.9
 
@@ -128,7 +128,8 @@ INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 (3, '2019_08_19_000000_create_failed_jobs_table', 1),
 (5, '2020_02_03_035053_create_abouts_table', 2),
 (7, '2020_02_04_041937_create_categories_table', 3),
-(9, '2020_02_11_193751_create_banners_table', 4);
+(9, '2020_02_11_193751_create_banners_table', 4),
+(11, '2020_02_12_201012_create_posters_table', 5);
 
 -- --------------------------------------------------------
 
@@ -141,6 +142,31 @@ CREATE TABLE `password_resets` (
   `token` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `created_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `posters`
+--
+
+CREATE TABLE `posters` (
+  `id` bigint(20) UNSIGNED NOT NULL,
+  `image` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `link` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `posters`
+--
+
+INSERT INTO `posters` (`id`, `image`, `link`, `created_at`, `updated_at`) VALUES
+(12, 'poster_images/mUFpx.jpg', 'http://127.0.0.1:8000/about/page/frontend/view', '2020-02-12 22:37:01', NULL),
+(13, 'poster_images/Bf4Zj.jpg', 'http://127.0.0.1:8000/about/page/frontend/view', '2020-02-12 22:37:16', NULL),
+(14, 'poster_images/gKWy4.jpg', 'http://127.0.0.1:8000/about/page/frontend/view', '2020-02-12 22:37:32', NULL),
+(15, 'poster_images/SI1LY.jpg', 'http://127.0.0.1:8000/about/page/frontend/view', '2020-02-12 22:37:43', NULL),
+(16, 'poster_images/gbTRo.jpg', 'http://127.0.0.1:8000/about/page/frontend/view', '2020-02-12 22:37:57', NULL);
 
 -- --------------------------------------------------------
 
@@ -207,6 +233,12 @@ ALTER TABLE `password_resets`
   ADD KEY `password_resets_email_index` (`email`);
 
 --
+-- Indexes for table `posters`
+--
+ALTER TABLE `posters`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `users`
 --
 ALTER TABLE `users`
@@ -245,7 +277,13 @@ ALTER TABLE `failed_jobs`
 -- AUTO_INCREMENT for table `migrations`
 --
 ALTER TABLE `migrations`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+
+--
+-- AUTO_INCREMENT for table `posters`
+--
+ALTER TABLE `posters`
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT for table `users`

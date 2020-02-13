@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Banner;
+use App\Poster;
 use Carbon\Carbon;
 use Image;
 use Brian2694\Toastr\Facades\Toastr;
@@ -13,7 +14,8 @@ class BannerController extends Controller
 {
     public function homePageView(){
         $banners = Banner::all();
-        return view('backend.home',compact('banners'));
+        $posters = Poster::all();
+        return view('backend.home',compact('banners','posters'));
     }
 
     public function addBannerPage(){
@@ -80,7 +82,7 @@ class BannerController extends Controller
                 'updated_at' => Carbon::now()
             ]);
 
-            Toastr::success('Banner Updated Successfully :)', 'Success');
+            Toastr::success('Banner Updated Successfully', 'Success');
             return back();
         }
         else{
@@ -93,7 +95,7 @@ class BannerController extends Controller
                 'updated_at' => Carbon::now()
             ]);
 
-            Toastr::success('Banner Updated Successfully :)', 'Success');
+            Toastr::success('Banner Updated Successfully', 'Success');
             return back();
         }
     }
@@ -112,5 +114,53 @@ class BannerController extends Controller
             Toastr::error('Banner Deleted Successfully', 'Success');
             return back();
         }
+    }
+
+    public function addNewPoster(Request $request){
+
+        if ($request->hasFile('image')){
+            $get_image = $request->file('image');
+            $image_name = str::random(5) . '.' . $get_image->getClientOriginalExtension();
+            Image::make($get_image)->resize(375, 205)->save('poster_images/' . $image_name, 100);
+
+            Poster::insert([
+                'image'      => 'poster_images/' . $image_name,
+                'link'       => $request->link,
+                'created_at' => Carbon::now()
+            ]);
+            Toastr::success('Poster Added Successfully', 'Success');
+            return back();
+        }
+        else{
+            Poster::insert([
+                'link'       => $request->link,
+                'created_at' => Carbon::now()
+            ]);
+            Toastr::success('Poster Added Successfully', 'Success');
+            return back();
+        }
+    }
+
+    public function deletePoster($id){
+        $image = Poster::findOrFail($id)->image;
+        if($image != null){
+            unlink($image);
+        }
+        Poster::where('id',$id)->delete();
+        Toastr::error('Poster Deleted Successfully', 'Success');
+        return back();
+    }
+
+    public function getPosterLinkForModal($id){
+        $product = Poster::find($id);
+        return response()->json($product);
+    }
+
+    public function editPosterLink(Request $request){
+        Poster::where('id',$request->product_id)->update([
+            'link' => $request->link,
+            'updated_at' => Carbon::now(),
+        ]);
+        return response()->json(['success'=>'Product saved successfully.']);
     }
 }

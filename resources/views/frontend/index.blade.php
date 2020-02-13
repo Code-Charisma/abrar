@@ -39,13 +39,19 @@
             <div class="col-md-4">
                  <!-- Single Banner Start -->
                 <div class="single-banner zoom mb-20">
-                    <a href="#"><img src="{{url('/')}}/frontend_assets/img/banner/9.jpg" alt="slider-banner"></a>
+                    <?php $poster1 = App\Poster::orderBy('id','desc')->first(); ?>
+                    @if($poster1 != null)
+                    <a href="{{$poster1->link}}"><img src="{{url($poster1->image)}}" alt="slider-banner"></a>
+                    @endif
                 </div>
                 <!-- Single Banner End -->
 
                 <!-- Single Banner Start -->
                 <div class="single-banner zoom">
-                    <a href="#"><img src="{{url('/')}}/frontend_assets/img/banner/10.jpg" alt="slider-banner"></a>
+                    <?php $poster2 = App\Poster::orderBy('id','desc')->skip(1)->first(); ?>
+                    @if($poster2 != null)
+                    <a href="{{$poster2->link}}"><img src="{{url($poster2->image)}}" alt="slider-banner"></a>
+                    @endif
                 </div>
                 <!-- Single Banner End -->
             </div>
@@ -208,19 +214,35 @@
     <div class="container">
        <div class="row">
            <!-- Single Banner Start -->
-           <div class="col-sm-6">
+           <div class="col-sm-4">
                 <div class="single-banner zoom">
-                    <a href="#"><img src="{{url('/')}}/frontend_assets/img/banner/1.png" alt="slider-banner"></a>
+                    <?php $poster3 = App\Poster::orderBy('id','desc')->skip(2)->first(); ?>
+                    @if($poster3 != null)
+                    <a href="{{$poster3->link}}"><img src="{{url($poster3->image)}}" class="img-fluid" alt="slider-banner"></a>
+                    @endif
                 </div>
             </div>
            <!-- Single Banner End -->
             <!-- Single Banner Start -->
-           <div class="col-sm-6">
+           <div class="col-sm-4">
                 <div class="single-banner zoom">
-                    <a href="#"><img src="{{url('/')}}/frontend_assets/img/banner/2.png" alt="slider-banner"></a>
+                    <?php $poster4 = App\Poster::orderBy('id','desc')->skip(3)->first(); ?>
+                    @if($poster4 != null)
+                    <a href="{{$poster4->link}}"><img src="{{url($poster4->image)}}" alt="slider-banner"></a>
+                    @endif
                 </div>
             </div>
            <!-- Single Banner End -->
+           <!-- Single Banner Start -->
+           <div class="col-sm-4">
+            <div class="single-banner zoom">
+                <?php $poster5 = App\Poster::orderBy('id','desc')->skip(4)->first(); ?>
+                @if($poster5 != null)
+                <a href="{{$poster5->link}}"><img src="{{url($poster5->image)}}" alt="slider-banner"></a>
+                @endif
+            </div>
+            </div>
+        <!-- Single Banner End -->
        </div>
        <!-- Row End -->
     </div>
