@@ -39,6 +39,11 @@ Route::group(['middleware' => 'auth'], function () {
     Route::post('/edit/banner','BannerController@editBanner');
     Route::get('/delete/banner/{id}','BannerController@deleteBanner');
 
+    //Poster
+    Route::post('/add/new/poster','BannerController@addNewPoster');
+    Route::get('/delete/poster/{id}','BannerController@deletePoster');
+    Route::get('get/poster/link/for/modal/{id}/edit','BannerController@getPosterLinkForModal');
+    Route::post('edit/poster/link/by/modal','BannerController@editPosterLink');
 });
 
 //Frontend Routes
